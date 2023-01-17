@@ -24,6 +24,7 @@ guess(10)
 def comp_guess(x):
     low = 1
     high = x
+    # start feedback as empty string so it != c
     feedback = ''
 
     while feedback != 'c':
